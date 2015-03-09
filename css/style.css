@@ -122,11 +122,11 @@ footer { width: 100%}
 }
 
 #news_slide{
-	background: url('../img/RedISB.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/cover.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
-	height: 600px;
+	height: 495px;
 	margin: 0;
-	-webkit-background-size: cover;
+	-webkit-background-size: 100% 550px;
 	-moz-background-size: cover;
 }
 
