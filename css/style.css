@@ -106,7 +106,7 @@ footer { width: 100%}
 /* Identifier Selectors*/
 
 
-#isb_slide, #news_slide, #speakers_slide, #history_slide, #tedx_slide, #sponsors_slide, #recruit_slide {
+#isb_slide, #news_slide, #speakers_slide, #schedule_slide, #history_slide, #tedx_slide, #sponsors_slide, #recruit_slide {
 	overflow: hidden;
 	width: 100%;
 	padding: 0;
@@ -123,11 +123,11 @@ footer { width: 100%}
 
 #news_slide{
 	background: url('../img/cover.jpg') 50% 0 no-repeat fixed;
-	background-size: cover;
+	background-size: 100% 550px;
 	height: 495px;
 	margin: 0;
 	-webkit-background-size: 100% 550px;
-	-moz-background-size: cover;
+	-moz-background-size: 100% 550px;
 }
 
 #speakers_slide{
@@ -137,6 +137,16 @@ footer { width: 100%}
 	-moz-background-size: cover;
 	color: #fff;
 	height: 600px;
+	margin: 0;
+}
+
+#schedule_slide{
+	background: url('../img/pi.png') 50% 0 no-repeat fixed;	
+	background-size: 100% 500;
+	-webkit-background-size: 100% 500;
+	-moz-background-size: 100% 500;
+	color: #fff;
+	height: 350px;
 	margin: 0;
 }
 
